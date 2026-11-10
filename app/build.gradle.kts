@@ -3,13 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.douanetemporelle"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.douanetemporelle"
         minSdk = 23
         targetSdk = 37
         versionCode = 1
