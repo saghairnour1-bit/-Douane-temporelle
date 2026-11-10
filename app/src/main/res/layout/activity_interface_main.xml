@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F5FA"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- titre-->
+        <TextView
+            android:id="@+id/txt_titre_xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titre"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#173B68"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/txt_sous_titre_xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sous_titre"
+            android:textSize="17sp"
+            android:textColor="#60758D"
+            android:gravity="center"
+            android:layout_marginBottom="28dp"/>
+
+        <!-- Nom du voyageur -->
+        <TextView
+            android:id="@+id/txt_label_nom_xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nom"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#173B68"/>
+
+        <EditText
+            android:autofillHints="personName"
+            android:id="@+id/edt_nom_xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nom"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:layout_marginBottom="18dp"/>
+
+        <!--  Année de naissance -->
+        <TextView
+            android:autofillHints="naissance"
+            android:importantForAutofill="no"
+            android:id="@+id/txt_label_naissance_xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/naissance"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#173B68"/>
+
+        <EditText
+            android:autofillHints="naissance"
+            android:id="@+id/edt_naissance_xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_naissance"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginBottom="18dp"/>
+
+        <!-- Année de destination -->
+        <TextView
+            android:id="@+id/txt_label_destination_xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/destination"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#173B68"/>
+
+        <EditText
+            android:autofillHints="destination"
+            android:id="@+id/edt_destination_xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_destination"
+            android:inputType="number"
+            android:padding="12dp"
+            android:layout_marginBottom="18dp"/>
+
+        <!-- Motif du voyage -->
+        <TextView
+            android:id="@+id/txt_label_motif_xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/motif"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#173B68"/>
+
+        <Spinner
+            android:id="@+id/spn_motif_nj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:contentDescription="@string/desc_spinner_motif" />
+
+        <!--  Bouton de validation -->
+        <Button
+            android:id="@+id/btn_inspecter_xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/inspecter"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#173B68"
+            android:padding="14dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

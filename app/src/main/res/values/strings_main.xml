@@ -1,0 +1,20 @@
+<!--definir les strings-->
+<resources>
+    <string name="app_name" translatable="false">Douane Temporelle</string>
+    <string name="titre" translatable="false">TIME TRAVEL CUSTOMS</string>
+    <string name="sous_titre" translatable="false">Formulaire d'enregistrement</string>
+    <string name="nom" translatable="false">Nom du voyageur</string>
+    <string name="hint_nom" translatable="false">Entrez votre nom</string>
+    <string name="naissance" translatable="false">Année de naissance</string>
+    <string name="hint_naissance" translatable="false">Exemple : 1990</string>
+    <string name="destination" translatable="false">Année de destination</string>
+    <string name="hint_destination" translatable="false">Exemple : 2050</string>
+    <string name="motif" translatable="false">Motif du voyage</string>
+    <string name="inspecter" translatable="false">Inspecter le profil</string>
+    <string name="desc_spinner_motif">Choisir le motif du voyage</string>
+    <string-array name="motifs_array">
+        <item>Tourism</item>
+        <item>Changing the past</item>
+        <item>Escape</item>
+    </string-array>
+</resources>
